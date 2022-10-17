@@ -1,8 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
   <head>
+    <style>
+        
+        h2 {
+          color: maroon;
+          
+        }
+        div{
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left:10px
+    
+       
+
+        }
+        #grid-box {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-areas: 
+            "a a a" ;
+            grid-template-rows: auto;
+            background-color: #681194;
+            padding: 5px;
+        }
+        .grid-point {
+            background-color: rgba(228, 224, 14, 0.8);
+            border: 3px solid rgba(0, 0, 0, 0.8);
+            padding: 10px 10px 10px 10px;
+            text-align: center;
+            border: 3px solid black
+        }
+        </style>
     <meta name="Team 9" content="Meeting Minutes">
     <link rel="shortcut icon" type="image/x-icon" href="https://cse110-f2021.github.io/Lab2_ScavengerHunt/favicon.ico">
+    <link rel="stylesheet" href="/index.css">
     <title> Meeting Minutes for CSE 110 </title>
   </head>
   <body>
@@ -12,15 +49,22 @@
  
     <main>
      
-        <header>Minutes for 10/5/2022</header>
+        <header >Minutes for 10/5/2022</header>
         <section>
-            <div>
+            <div style= "margin: 5px,5px,5px,5px;">
                 <header>Today's meeting will cover these topics</header>
-                <nav>
-                    <a href="https://www.w3schools.com/html/">HTML</a> |
-                    <a href="https://www.w3schools.com/css/">CSS</a> |
-                    <a href="https://www.w3schools.com/JavaScript/">JavaScript</a> |
-                    <a href="https://www.w3schools.com/Python/">Python</a>
+                <nav  id="grid-box" >
+                    <a class="grid-point" href="https://www.w3schools.com/html/" target="some">HTML</a> |
+                    <a class="grid-point"href="https://www.w3schools.com/css/">CSS</a> |
+                    <a class="grid-point" href="https://www.w3schools.com/JavaScript/" target="some">JavaScript</a> |
+                    <a class="grid-point" href="https://www.w3schools.com/Python/">Python</a>
+                    <a class="grid-point" href="https://www.w3schools.com/Python/">ruby</a>
+                    <a class="grid-point" href="https://www.w3schools.com/Python/">Java</a>
+                    <a class="grid-point" href="https://www.w3schools.com/Python/" target="some">C</a>
+                    <a class="grid-point" href="https://www.w3schools.com/Python/">C++</a>
+                    <a class="grid-point" href="https://www.w3schools.com/Python/">C#</a>
+                    <a class="grid-point" href="https://www.w3schools.com/Python/">React</a>
+                    <a class="grid-point" href="https://www.w3schools.com/Python/">Angular</a>
                     </nav>
             </div>
         </section>
@@ -28,11 +72,12 @@
             <div>
                 <header>Here is some unfinished business from last meeting</header>
                 
-                    <ol>
+                    <ol  style="color:rosybrown; padding: 5px,5px,5px,5px; display: inline-block; position: relative; right:20px;" >
                         <li>Finish our greetings and introductions</li>
                         <li>set a hard deadline for action items for the project</li>
                         <li>set up a weekly meeting time</li>
                         <li>Most Importantly: <span style="color:blue;font-weight:bold">Have Fun!</span></li>
+                   
                     </ol>
     
     
@@ -43,7 +88,7 @@
         <section>
             <div>
                 <header>Here is some <b>new</b> <strong>business</strong> that needs to be talked about at this meeting</header>
-                <p>
+                <p class="yum">
                     We must ensure that we are familiarized with <i>HTML</i>
                 </p>
                 <hr>
@@ -51,12 +96,12 @@
                     We must ensure that we are familiarized with <em>CSS</em>
                 </p>
                 <hr>
-                <p>
+                <p class="yum">
                     We must ensure that we are familiarized with <br> <b>Javascript</b>
                 </p>
                 <hr>
                 <header>Furthermore here is the list of attendendats who came to the meeting</header>
-                <ul>
+                <ul style="display:flex; flex-direction: column; justify-content: space-around; align-items: stretch;">
                     <li>Anish </li>
                     <li>Pranav</li>
                     <li>Aedan</li>
