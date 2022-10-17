@@ -1,0 +1,65 @@
+/* My CSS style sheet */
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+h1{
+    color:rgb(56, 8, 211);
+    background-color:rgb(214, 16, 148);
+    height: 3em;
+    width: 10em;
+    min-width: none;
+    max-width: fit-content;
+    position:static;
+}
+p{
+    display: block;
+    font-size: 1.1em;
+    margin:auto;
+   
+}
+ol{
+    font-size: large;
+    text-decoration: underline;
+    
+}
+main{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1px;
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+}
+button:hover {
+    color: blue;
+  }
+button:active {
+    box-shadow: 5px 5px 5px #bb18a0;
+}
+@media (any-hover: hover) {
+    li:hover {
+      background:rgb(214, 16, 148);
+    }
+  }
+  a[target] {
+    background-color: rgb(0, 255, 191);
+  }
+  p.yum {
+    color: red;
+  }
+  ol li {
+    margin: 2em;
+  }
+  div > p {
+    background-color: rgb(177, 22, 64);
+  }
+  header ~ section {
+    background-color: rgb(157, 255, 0);
+  }
+  li + li {
+    font-weight: bold;
+  }
